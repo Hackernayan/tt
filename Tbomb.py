@@ -54,18 +54,16 @@ def update():
 #Logo
 def logo():
     os.system("clear")
-    print("\033[94m┌────────────────────────────────────────┐".center(columns+5))
-    print("\033[94m│     \033[92m▀▛▘     ▗    ▛▀▖       ▌        \033[94m   │".center(columns+15))
-    print("\033[94m│     \033[92m ▌▞▀▖▚▗▘▄ ▞▀▖▙▄▘▞▀▖▛▚▀▖▛▀▖▞▀▖▙▀▖\033[94m   │".center(columns+15))
-    print("\033[94m│     \033[92m ▌▌ ▌▗▚ ▐ ▌ ▖▌ ▌▌ ▌▌▐ ▌▌ ▌▛▀ ▌  \033[94m   │".center(columns+15))
-    print("\033[94m│     \033[92m ▘▝▀ ▘ ▘▀▘▝▀ ▀▀ ▝▀ ▘▝ ▘▀▀ ▝▀▘▘  \033[94m   │".center(columns+15))
+    print("\033[0;32m███    ██  \033[0;31m█████  \033[0;93m██    ██  \033[0;94m█████  \033[0;31m███    ██".center(columns+5))
+    print("\033[0;32m████   ██ \033[0;31m██   ██  \033[0;93m██  ██  \033[0;94m██   ██ \033[0;31m████   ██".center(columns+15))
+    print("\033[0;32m██ ██  ██ \033[0;31m███████   \033[0;93m████   \033[0;94m███████ \033[0;31m██ ██  ██".center(columns+15))
+    print("\033[0;32m██  ██ ██ \033[0;31m██   ██    \033[0;93m██    \033[0;94m██   \033[0;94m██ \033[0;31m██  ██ ██".center(columns+15))
+    print("\033[0;92m██   ████ \033[0;31m██   ██    \033[0;93m██    \033[0;94m██   \033[0;94m██ \033[0;31m██   ████".center(columns+15))
     print("\033[94m│                              \033[94m          │".center(columns+9))
-    print("\033[94m│ \033[95mAuthor : ToxicNoob                     \033[94m│".center(columns+15))
+    print("\033[94m│ \033[95mAuthor : MR.NAYAN                      \033[94m│".center(columns+15))
     print("│ \033[95mTool   : Unlimited SMS Bomber          \033[94m│".center(columns+9))
-    print("│ \033[95mGitHub : https://github.com/Toxic-Noob \033[94m│".center(columns+9))
+    print("│ \033[95mGitHub : https://github.com/MR-NAYAN-404\033[94m│".center(columns+9))
     print("│ \033[95mCoder  : HunterSl4d3              \033[37mV3.0 \033[94m│".center(columns+15))
-    print("\033[94m└────────────────────────────────────────┘".center(columns+5))
-
 
 #Options Banner
 def banner():
