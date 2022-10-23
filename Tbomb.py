@@ -8,7 +8,7 @@ import requests
 import sys
 import os
 import shutil
-from more.data import *
+from data import *
 
 #Get Rows and Columns of Screen
 columns = shutil.get_terminal_size().columns
@@ -22,7 +22,7 @@ def psb(z):
 #Check Update
 def update():
     try:
-        toolVersion = open("./more/.version", "r").read()
+        toolVersion = open(".data.version", "r").read()
     except:
         toolVersion = "ToxicNoob"
     
