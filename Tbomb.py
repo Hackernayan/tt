@@ -66,7 +66,7 @@ def logo():
     print("│ \033[95mCoder  : HunterSl4d3              \033[37mV3.0 \033[94m│".center(columns+15))
     print("\033[94m└────────────────────────────────────────┘".center(columns+5))
 #Options Banner
-def banner():
+def logo():
     amount = str(main.amount)
     if (len(amount) == 1):
         amount = amount + "                    "
